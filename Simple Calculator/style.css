@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(./3838.jpg_wh1200.jpg);
+    background-size: cover;
+
+  }
+  .heading{
+    width: 30%;
+    color: white;
+    margin-left: 50px;
+    box-shadow: 0px 3px 15px rgba(0,0,0, 0.8);
+    background: rgba(0,0,0, 0.5);
+    border-radius: 10px;
+  }
+  .heading h1{
+    margin-left: 10px;
+    font-size: 50px;
+  }
+  .heading p{
+    margin-left: 50px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+  }
+  .container {
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 3px 15px rgba(0,0,0, 0.8);
+    background: rgba(0,0,0, 0.5);
+    width: 20%;
+    margin-left: 200px;
+    margin-top: 0px;
+  }
+  .container input {
+    width: 90%;
+    height: 50px;
+    margin: 10px;
+    color: white;
+    background-color: rgba(255,255, 255, 0.3);
+    padding: 2px;
+    border-radius: 10px;
+    font-size: 25px;
+    text-align: right;
+    
+  }
+  input::placeholder{
+    color: white;
+  }
+
+  .container .buttons{
+    width: 90%;
+    height: 300px;
+    margin: 10px;
+    border-top: 1px solid grey;
+
+  }
+  .buttons table{
+    width: 100%;
+    height: 100%;
+    margin-top: 5px;
+  }
+  table td{
+    color: white;
+    background: rgba(0,0,0, 0.7);
+    font-size: 22px;
+    text-align: center;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 25px;
+    border: solid 1px rgba(255,255, 255, 0.3);
+    box-shadow: -1px 2px 10px rgba(0,0,0, 0.5);
+    text-shadow: 0px 1px 5px rgba(0,0,0, 0.2);
+    
+  }
+  .opt{
+    background: rgba(223, 146, 4, 0.7);
+  }
+  .topBar{
+    background: rgba(91, 90, 92, 0.7);
+  }
